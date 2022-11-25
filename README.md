@@ -170,7 +170,7 @@ pipx ensurepath
 ```
 #
 
-# Now, get Odoo and addons code following [this](https://github.com/Tecnativa/doodba-copier-template/blob/main/docs/daily-usage.md#environments) tutorial
+# Now get Odoo and addons code following [this](https://github.com/Tecnativa/doodba-copier-template/blob/main/docs/daily-usage.md#environments) tutorial
 
 
 
