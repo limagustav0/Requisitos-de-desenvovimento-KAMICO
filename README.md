@@ -95,3 +95,6 @@ sudo apt-get install apt-transport-https
 sudo apt-get update
 sudo apt-get install code # or code-insiders
 ```
+### To install [DBEAVER](https://www.cyberciti.biz/faq/howto-install-curl-command-on-debian-linux-using-apt-get/)
+
+
