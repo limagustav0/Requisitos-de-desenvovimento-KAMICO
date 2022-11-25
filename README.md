@@ -49,3 +49,5 @@ sudo dpkg -i mysql-apt-config_0.8.18-1_all.deb
 
 ```
 
+![alt text]([path/to/file](https://computingforgeeks.com/wp-content/uploads/2022/01/Install_mysql_5.7_on_debian_11_10.jpeg?ezimgfmt=ng%3Awebp%2Fngcb23%2Frs%3Adevice%2Frscb23-1))
+
