@@ -17,8 +17,6 @@ Install wget on Ubuntu/Debian
 apt-get install wget
 ```
 
-#
-
 ### Check if you already have [GIT](https://github.com/git-guides/install-git#install-git-on-linux)
 
 ```bash
@@ -55,6 +53,7 @@ wget https://dev.mysql.com/get/mysql-apt-config_0.8.18-1_all.deb
 # Once downloaded, we need to install the repository package
 
 sudo dpkg -i mysql-apt-config_0.8.18-1_all.deb
+
 ```
  
 Note that MySQL 5.7 repository is not yet availaible for Debian 11 (Bullseye). In this case, we are going to select Debian 10 (Buster) for both Debian 11 and Debian 10.
@@ -104,8 +103,6 @@ sudo apt-get install code # or code-insiders
 
 ### To install [DBEAVER](https://www.cyberciti.biz/faq/howto-install-curl-command-on-debian-linux-using-apt-get/)
 ![alt text](https://user-images.githubusercontent.com/87615776/203999828-85a23077-8375-4f71-a6b9-8564c3e9f638.png)
-
-#
 
 ### To install [DOCKER](https://docs.docker.com/engine/install/ubuntu/)
 
@@ -159,4 +156,15 @@ sudo docker run hello-world
 ```
 #
 
+## After installing the basic frameworks, install Odoo:
 
+First install the components below and follow [this](https://github.com/devkami/tutorial_odoo_tecnativa) tutorial
+
+```bash
+python3 -m pip install --user pipx
+pipx install docker-compose
+pipx install copier
+pipx install invoke
+pipx install pre-commit
+pipx ensurepath
+```
