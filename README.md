@@ -156,7 +156,7 @@ sudo docker run hello-world
 ```
 #
 
-## After installing the basic frameworks, install Odoo:
+## Step by Step configuration of Odoo environment:
 
 First install the components below and follow [this](https://github.com/devkami/tutorial_odoo_tecnativa) tutorial
 
@@ -170,4 +170,7 @@ pipx ensurepath
 ```
 #
 
-Now
+# Now, get Odoo and addons code following [this](https://github.com/Tecnativa/doodba-copier-template/blob/main/docs/daily-usage.md#environments) tutorial
+
+
+
