@@ -1,4 +1,4 @@
-# KAMIICO-development-requirements
+# KAMICO-development-requirements
 
 ### This tutorial contains all the necessary development requirements installation guide for the DEV-KAMICO team
 
