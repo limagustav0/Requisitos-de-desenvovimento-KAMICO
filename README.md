@@ -17,6 +17,8 @@ Install wget on Ubuntu/Debian
 apt-get install wget
 ```
 
+#
+
 ### Check if you already have [GIT](https://github.com/git-guides/install-git#install-git-on-linux)
 
 ```bash
@@ -27,6 +29,8 @@ git --version
 sudo apt-get update
 sudo apt-get install git-all
 ```
+#
+
 ### To install [POSTGRESQL](https://www.postgresql.org/download/linux/ubuntu/)
 
 ```bash
@@ -41,8 +45,9 @@ sudo apt-get update
 
 # check if the installation is ok
 psql
-
 ```
+#
+
 ### To install [MYSQL](https://computingforgeeks.com/how-to-install-mysql-on-debian-linux-system/)
 ```bash
 wget https://dev.mysql.com/get/mysql-apt-config_0.8.18-1_all.deb
@@ -50,7 +55,6 @@ wget https://dev.mysql.com/get/mysql-apt-config_0.8.18-1_all.deb
 # Once downloaded, we need to install the repository package
 
 sudo dpkg -i mysql-apt-config_0.8.18-1_all.deb
-
 ```
  
 Note that MySQL 5.7 repository is not yet availaible for Debian 11 (Bullseye). In this case, we are going to select Debian 10 (Buster) for both Debian 11 and Debian 10.
@@ -73,6 +77,7 @@ Next, use the down arrow key to select Ok then click Ok and the package will be 
 # check if the installation is ok
 mysql -V
 ```
+#
 
 ### To install [VSCODE](https://www.cyberciti.biz/faq/howto-install-curl-command-on-debian-linux-using-apt-get/)
 
@@ -95,8 +100,12 @@ sudo apt-get install apt-transport-https
 sudo apt-get update
 sudo apt-get install code # or code-insiders
 ```
+#
+
 ### To install [DBEAVER](https://www.cyberciti.biz/faq/howto-install-curl-command-on-debian-linux-using-apt-get/)
 ![alt text](https://user-images.githubusercontent.com/87615776/203999828-85a23077-8375-4f71-a6b9-8564c3e9f638.png)
+
+#
 
 ### To install [DOCKER](https://docs.docker.com/engine/install/ubuntu/)
 
@@ -148,3 +157,6 @@ Verify that the Docker Engine installation is successful by running the hello-wo
 ```bash
 sudo docker run hello-world
 ```
+#
+
+
